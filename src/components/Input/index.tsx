@@ -9,7 +9,7 @@ const style = StyleSheet.create({
     input: {
         borderWidth: 1,
         margin: 10,
-        padding: 10,
+        padding: 5,
         borderRadius: 20,
     },
 });

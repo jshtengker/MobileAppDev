@@ -6,12 +6,14 @@ import image1 from './assets/imge.jpg'
 import image2 from './assets/imge2.jpg'
 import Title from './src/components/Title';
 import Input from './src/components/Input';
+import SignInPage from './src/components/Signin';
 
 const App = () => { 
     
     return (
     <View>
-        <Title text="Basic RN"/>
+        <SignInPage />
+        {/* <Title text="Basic RN"/>
         <Title text="Basic ReactNative"/>
         <ScrollView>
         <Input placeholder="Input your name"/>
@@ -19,17 +21,9 @@ const App = () => {
             <Image source={image1} style={imageStyle.input}/>
             <Image source={image2} style={imageStyle.input}/>
             <Image source={Test} style={imageStyle.input}/>
-        </ScrollView>
+        </ScrollView> */}
     </View>
     );
 };
-
-const imageStyle = StyleSheet.create({
-    input: {
-        width: 400,
-        height: 225,
-    },
-})
-
 
 export default App;
